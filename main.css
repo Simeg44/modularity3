@@ -1,0 +1,103 @@
+.signup {
+	/*display: inline-block;*/
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+.user-nfo {
+	margin: auto;
+	padding: 5px;
+	text-align: right;
+
+}
+
+.user-nfo input {
+	width: 70%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+}
+
+.user-nfo label {
+	margin-right: 18px;
+	margin-left: 2px;
+}
+
+.user-nfo-double input:nth-child(2) {
+	width: 44%;
+}
+
+.boxes {
+	padding: 5px;
+	text-align: right;
+	margin-right: 110px;
+}
+
+.boxes input {
+	margin: 10px;
+}
+
+.btn {
+	background: #cccccc;
+	border: none;
+	padding: 10px 135px;
+	float: right;
+	border-radius: 5px;
+}
+
+.user-nfo-double input:last-child {
+	width: 10%;
+}
+
+span {
+	position: absolute;
+	margin-left: 1%;
+	font-size: 14px;
+	color: red;
+}
+.is-valid {
+	color: green;
+}
+
+.yes input:valid {
+	border: none;
+	border-color: #41CC2B;
+	box-shadow: 0 0 10px #41CC2B;
+}
+
+.no input:invalid {
+	border: none;
+	border-color: red;
+	box-shadow: 0 0 10px red;
+}
+
+.search-bar {
+	margin: auto;
+	text-align: center;
+	background: #cccccc;
+	padding: 12px;
+	border-radius: 15px;
+}
+
+.user-input {
+	display: inline-block;
+	width:60%;
+}
+
+.user-input input {
+	width: 95%;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	padding: 5px;
+}
+
+.btn-pink {
+	padding: 5px 10px;
+	background: #F4A6A6;
+	border: none;
+	color: white;
+	margin-right: -80px;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
