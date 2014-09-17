@@ -122,7 +122,7 @@
           <p class="instruction-text">Create a textbox which can display multiple "tags" as there are entered.</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <div>
+            <div class="tag-bar">
               <ul><li><a href="#">x</a>Date: Yesterday</li><li><a href="#">x</a>Label: Notes</li></ul>
               <input type="text" placeholder="Enter more terms">
             </div>
@@ -136,20 +136,20 @@
           <p class="instruction-text">Create a list of items that have multiple pieces of data per row, including an icon, title, description, and favorited count.</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <div>
-              <div>
+            <div class="chunky-table">
+              <div class="chunky-head">
                 <h3>Public repositories</h3>
               </div>
-              <ul>
+              <ul class="chunky-info">
                 <li >
                   <a href="http://github.com/visionmedia/express" target="_blank">
                     <div>
-                      <div>9,972</div>
+                      <div class="chunky-data">9,972</div>
                       <div>
-                        <div></div>
+                        <div class="icon"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnd5O7wNvnWra2ce8N8rkX4HPq4nyp4ZUPQJfsv6AOkSKjR2JlcQ"></div>
                       </div>
-                      <div>
-                        <div>express</div>
+                      <div class="descrip">
+                        <div class="chunky-title">express</div>
                         <p title="Sinatra inspired web development framework for node.js -- insanely fast, flexible, and simple">Sinatra inspired web development framework for node.js -- insanely fast, flexible, and simple</p>
                       </div>
                     </div>
@@ -159,12 +159,12 @@
                 <li>
                   <a href="http://github.com/visionmedia/jade" target="_blank">
                     <div>
-                      <div>4,854</div>
+                      <div class="chunky-data">4,854</div>
                       <div>
-                        <div></div>
+                        <div class="icon"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnd5O7wNvnWra2ce8N8rkX4HPq4nyp4ZUPQJfsv6AOkSKjR2JlcQ"></div>
                       </div>
-                      <div>
-                        <div>jade</div>
+                      <div class="descrip">
+                        <div class="chunky-title">jade</div>
                         <p title="robust, elegant, feature rich template engine for nodejs">robust, elegant, feature rich template engine for nodejs</p>
                       </div>
                     </div>
@@ -174,12 +174,12 @@
                 <li>
                   <a href="http://github.com/visionmedia/mocha" target="_blank">
                     <div>
-                      <div>2,954</div>
+                      <div class="chunky-data">2,954</div>
                       <div>
-                        <div></div>
+                        <div class="icon"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnd5O7wNvnWra2ce8N8rkX4HPq4nyp4ZUPQJfsv6AOkSKjR2JlcQ"></div>
                       </div>
-                      <div>
-                        <div>mocha</div>
+                      <div class="descrip">
+                        <div class="chunky-title">mocha</div>
                         <p title="simple, flexible, fun javascript test framework for node.js &amp; the browser. (BDD, TDD, QUnit styles via interfaces)">simple, flexible, fun javascript test framework for node.js &amp; the browser. (BDD, TDD, QUnit styles via interfaces)</p>
                       </div>
                     </div>
@@ -189,12 +189,12 @@
                 <li >
                   <a href="http://github.com/visionmedia/get-extras" target="_blank">
                     <div>
-                      <div>2,342k</div>
+                      <div class="chunky-data">2,342k</div>
                       <div>
-                        <div></div>
+                        <div class="icon"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnd5O7wNvnWra2ce8N8rkX4HPq4nyp4ZUPQJfsv6AOkSKjR2JlcQ"></div>
                       </div>
-                      <div>
-                        <div>git-extras</div>
+                      <div class="descrip">
+                        <div class="chunky-title">git-extras</div>
                         <p title="repo summary, repl, changelog population, author commit percentages and more">repo summary, repl, changelog population, author commit percentages and more</p>
                       </div>
                     </div>
@@ -204,12 +204,12 @@
                 <li >
                   <a href="http://github.com/visionmedia/uikit" target="_blank">
                     <div>
-                      <div>1,183</div>
+                      <div class="chunky-data">1,183</div>
                       <div>
-                        <div></div>
+                        <div class="icon"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnd5O7wNvnWra2ce8N8rkX4HPq4nyp4ZUPQJfsv6AOkSKjR2JlcQ"></div>
                       </div>
-                      <div>
-                        <div>uikit</div>
+                      <div class="descrip">
+                        <div class="chunky-title">uikit</div>
                         <p title="modern ui components for the modern web">modern ui components for the modern web</p>
                       </div>
                     </div>
@@ -230,26 +230,26 @@ UIKit - modern ui components for the modern web-->
           <p class="instruction-text">What if we used a table for the markup instead? Style it the same as above. You should be able to use <em>nearly 100%</em> of the same classes.</p>
           <div class="instruction-answer">
             <!-- Edit here -->
-            <table>
+            <table class="chunky-table">
               <thead>
                 <tr>
-                  <th>
+                  <th class="chunky-head">
                     <h3>Public repositories</h3>
                   </th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody class="chunky-info">
 
                 <tr >
                   <td>
                     <a href="http://github.com/visionmedia/express" target="_blank">
                       <div>
-                        <div>9,972</div>
+                        <div class="chunky-data">9,972</div>
                         <div>
-                          <div></div>
+                          <div class="icon"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnd5O7wNvnWra2ce8N8rkX4HPq4nyp4ZUPQJfsv6AOkSKjR2JlcQ"></div>
                         </div>
-                        <div>
-                          <div>express</div>
+                        <div class="descrip">
+                          <div class="chunky-title">express</div>
                           <p title="Sinatra inspired web development framework for node.js -- insanely fast, flexible, and simple">Sinatra inspired web development framework for node.js -- insanely fast, flexible, and simple</p>
                         </div>
                       </div>
@@ -261,12 +261,12 @@ UIKit - modern ui components for the modern web-->
                   <td>
                     <a href="http://github.com/visionmedia/jade" target="_blank">
                       <div>
-                        <div>4,854</div>
+                        <div class="chunky-data">4,854</div>
                         <div>
-                          <div></div>
+                          <div class="icon"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnd5O7wNvnWra2ce8N8rkX4HPq4nyp4ZUPQJfsv6AOkSKjR2JlcQ"></div>
                         </div>
-                        <div>
-                          <div>jade</div>
+                        <div class="descrip">
+                          <div class="chunky-title">jade</div>
                           <p title="robust, elegant, feature rich template engine for nodejs">robust, elegant, feature rich template engine for nodejs</p>
                         </div>
                       </div>
@@ -278,12 +278,12 @@ UIKit - modern ui components for the modern web-->
                   <td>
                     <a href="http://github.com/visionmedia/mocha" target="_blank">
                       <div>
-                        <div>2,954</div>
+                        <div class="chunky-data">2,954</div>
                         <div>
-                          <div></div>
+                          <div class="icon"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnd5O7wNvnWra2ce8N8rkX4HPq4nyp4ZUPQJfsv6AOkSKjR2JlcQ"></div>
                         </div>
-                        <div>
-                          <div>mocha</div>
+                        <div class="descrip">
+                          <div class="chunky-title">mocha</div>
                           <p title="simple, flexible, fun javascript test framework for node.js &amp; the browser. (BDD, TDD, QUnit styles via interfaces)">simple, flexible, fun javascript test framework for node.js &amp; the browser. (BDD, TDD, QUnit styles via interfaces)</p>
                         </div>
                       </div>
@@ -295,12 +295,12 @@ UIKit - modern ui components for the modern web-->
                   <td>
                     <a href="http://github.com/visionmedia/get-extras" target="_blank">
                       <div>
-                        <div>2,342k</div>
+                        <div class="chunky-data">2,342k</div>
                         <div>
-                          <div></div>
+                          <div class="icon"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnd5O7wNvnWra2ce8N8rkX4HPq4nyp4ZUPQJfsv6AOkSKjR2JlcQ"></div>
                         </div>
-                        <div>
-                          <div>git-extras</div>
+                        <div class="descrip">
+                          <div class="chunky-title">git-extras</div>
                           <p title="repo summary, repl, changelog population, author commit percentages and more">repo summary, repl, changelog population, author commit percentages and more</p>
                         </div>
                       </div>
@@ -312,12 +312,12 @@ UIKit - modern ui components for the modern web-->
                   <td>
                     <a href="http://github.com/visionmedia/uikit" target="_blank">
                       <div>
-                        <div>1,183</div>
+                        <div class="chunky-data">1,183</div>
                         <div>
-                          <div></div>
+                          <div class="icon"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnd5O7wNvnWra2ce8N8rkX4HPq4nyp4ZUPQJfsv6AOkSKjR2JlcQ"></div>
                         </div>
-                        <div>
-                          <div>uikit</div>
+                        <div class="descrip">
+                          <div class="chunky-title">uikit</div>
                           <p title="modern ui components for the modern web">modern ui components for the modern web</p>
                         </div>
                       </div>

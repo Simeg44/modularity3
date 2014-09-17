@@ -77,11 +77,12 @@ span {
 	background: #cccccc;
 	padding: 12px;
 	border-radius: 15px;
+	overflow: hidden;
 }
 
 .user-input {
 	display: inline-block;
-	width:60%;
+	width:75%;
 }
 
 .user-input input {
@@ -91,13 +92,122 @@ span {
 	padding: 5px;
 }
 
+.search-bar label {
+	float: left;
+	padding: 5px;
+}
+
 .btn-pink {
-	padding: 5px 10px;
+	padding: 7px 10px;
 	background: #F4A6A6;
 	border: none;
 	color: white;
-	margin-right: -80px;
 	border-radius: 5px;
 	font-size: 14px;
+	float: right;
 }
 
+.tag-bar {
+	postion:relative;
+}
+
+.tag-bar ul {
+	position: absolute;
+	padding: 4px;
+}
+
+.tag-bar li {
+	display: inline;
+	float: left;
+	background: #8389EC;
+	margin: 2px 4px;
+	border-radius: 2px;
+	font-size: 13px;
+	color: white;
+	padding: 2px;
+}
+
+.tag-bar a {
+	text-decoration: none;
+	padding: 1px 3px;
+	background: #696DBC;
+	color: #cccccc;
+	font-size: 11px;
+	margin: 3px;
+	border-radius: 2px;
+}
+
+.tag-bar input {
+	width: 50%;
+	text-align: right;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+}
+
+.chunky-table {
+	width: 70%;
+	margin: auto;
+	border: 1px solid #cccccc;
+}
+
+.chunky-head {
+	padding: 1px 10px;
+	font-size: 12px;
+	margin-top: 10px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(white), to(#cccccc));
+}
+
+.chunky-info {
+	list-style: none;
+	padding: 20px;
+	font-size: 13px;
+	margin-bottom: -31px;
+}
+
+.chunky-info li, td{
+	border-bottom: 1px solid #cccccc;
+	margin: 0px -21px 10px -21px;
+	padding-left: 50px;
+}
+
+.chunky-info a {
+	text-decoration: none;
+	color: black;
+}
+
+.chunky-title {
+	color: #352FCC;
+	font-weight: bold;
+}
+
+.chunky-title, .descrip > p {
+	text-decoration: none;
+	white-space: nowrap;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+
+.chunky-data {
+	float: right;
+	text-decoration: none;
+	margin: 0px 15px 5px 10px;
+}
+
+.chunky-data:after {
+	content:'\2605'; 
+	color: #888888; 
+	padding-left: 4px;
+} 
+
+.icon {
+	width: 19px;
+	float: left;
+	margin-left: -30px;
+}
+
+.icon img {
+	width: 100%;
+}
